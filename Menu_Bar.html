@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Assignement-Menu-Bar</title>
+			<style>
+			*{ margin:0px;
+			   padding:0px;
+			 }
+			#Main_Container ul{  
+			    list-style:none;
+			}
+			#Main_Container ul li{
+			background-color:rgb(255,51,0);
+			width:150px;
+			border:1px solid white;
+			height:50px;
+			line-height:50px;
+			text-align:center;
+			float:left;
+			color:white;
+			font-size:18px;
+			
+			
+			}
+			
+			#Main_Container ul li:hover{
+			background-color:rgb(102,255,51);
+			}
+		
+			#Main_Container ul ul{
+			display:none;
+		
+			}
+			#Main_Container ul li:hover > ul{
+			display:block;
+			}
+			#Main_Container ul ul ul {
+			margin-left:150px;
+			top:0px;
+			
+			}
+			
+			</style>
+	  
+	</head>
+	<body>
+	<div id="Main_Container">
+	<ul>
+	    <li><b>About</li>
+		<li>Academics</li>
+		<li>Student
+		    <ul>
+				<li>Syllabus</li>
+				<li>Downloads
+				 <ul>
+				     <li>F.Y.Btech</li>
+					 <li>S.Y.Btech</li>
+				</ul>
+				</li>
+				<li>Result</li>
+			</ul>
+		</li>
+		<li>Admission</li>
+	</ul>
+		
+	</div>
+	
+	</body>
+</html>
